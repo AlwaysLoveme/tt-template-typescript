@@ -1,8 +1,8 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+node_modules
+dist
+.idea
+.vscode
 
 # Other files and folders
 .settings/
