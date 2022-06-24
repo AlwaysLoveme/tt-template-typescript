@@ -1,8 +1,8 @@
 # Build and Release Folders
 node_modules
 dist
+lib
 .idea
-.vscode
 
 # Other files and folders
 .settings/

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "esModuleInterop": true,
+    "target": "es6",
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "strict": true,
+    "lib": ["ESNext", "dom"],
+    "types": ["node", "tt-api-typings"],
+    "paths": {
+      
+    },
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

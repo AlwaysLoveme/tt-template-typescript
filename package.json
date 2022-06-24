@@ -1,0 +1,63 @@
+{
+  "name": "tt-template-typescript",
+  "version": "0.0.1",
+  "description": "基于gulp，使用 TS+Less 开发字节小程序的项目模板",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev --color",
+    "build": "gulp build --color",
+    "add": "cd src && npm install",
+    "buildNpm": "node ./config/cli.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlwaysLoveme/tt-template-typescript.git"
+  },
+  "keywords": [
+    "tt",
+    "ts",
+    "typescript",
+    "less",
+    "字节小程序TS模版"
+  ],
+  "author": "zhuxian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlwaysLoveme/tt-template-typescript/issues"
+  },
+  "homepage": "https://github.com/AlwaysLoveme/tt-template-typescript#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-insert": "^0.5.0",
+    "gulp-less": "^5.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "merge2": "^1.4.1",
+    "readable-stream": "^2.3.7",
+    "ts-node": "^10.8.1",
+    "tscpaths": "^0.0.9",
+    "tt-api-typings": "^0.0.2",
+    "typescript": "^4.7.4"
+  },
+  "browserslist": [
+    "Chrome >= 53",
+    "ChromeAndroid >= 53",
+    "iOS >= 9"
+  ],
+  "dependencies": {
+    "tt-ide-cli": "^0.1.12"
+  }
+}
